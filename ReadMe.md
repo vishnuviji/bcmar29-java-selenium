@@ -4,8 +4,10 @@ This project is a Java-based automation framework for testing an e-commerce webs
 
 ## Prerequisites
 
-- Java 17
-- Maven
+- (Java 17)(https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- (Maven)[https://maven.apache.org/download.cgi]
+- (Git)[https://git-scm.com/downloads]
+- (IntelliJ IDEA)[https://www.jetbrains.com/idea/download/] (or any other Java IDE) (Optional)
 
 ## Project Structure
 
@@ -15,10 +17,12 @@ This project is a Java-based automation framework for testing an e-commerce webs
 
 
 ## Setup
+Before cloning the repository, ensure maven is added to environment variables.
+https://www.qamadness.com/knowledge-base/how-to-install-maven-and-configure-environment-variables/
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone  https://github.com/Axone-Tech/java-selenium.git
     cd java-selenium
     ```
 
@@ -33,4 +37,4 @@ This project is a Java-based automation framework for testing an e-commerce webs
 
 To run the tests, use the following Maven command:
 ```sh
-mvn test
+mvn clean test
